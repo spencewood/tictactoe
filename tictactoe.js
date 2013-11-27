@@ -15,5 +15,19 @@
         root.returnExports = factory();
   }
 }(this, function (exports) {
+    var Board = function(){
 
+    };
+
+    Board.prototype.getBoard = function(){
+        return [];
+    };
+
+    Board.prototype.play = function(){
+
+    };
+
+    return {
+        Board: Board
+    };
 }));
