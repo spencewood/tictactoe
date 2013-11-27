@@ -1,0 +1,14 @@
+{
+    "name": "TicTacToe",
+    "version": "0.1.0",
+    "description": "A Tic Tac Toe library",
+    "main": "./tictactoe",
+    "repository" :{ 
+        "type" : "git",
+        "url" : "https://github.com/tcollard/tictactoe.git"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    }
+}
