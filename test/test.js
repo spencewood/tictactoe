@@ -8,6 +8,10 @@ describe('TicTacToe', function(){
             (new ttt.Board()).should.be.instanceOf(Object);
         });
 
+        it('should initialize state', function(){
+            (new ttt.Board()).should.be.instanceOf(Object);
+        });
+
         describe('#getBoard', function(){
             it('should return an array', function(){
                 var b = new ttt.Board();
